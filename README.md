@@ -19,14 +19,46 @@ Subnet Mask in binary format=11111111.11111111.11111111.11111000
 
 >Note: Network Portion is 1s while Host Portion is 0s
 
-Haven gotten the subnet mask in binary, lets convert it to decimal format
+Haven gotten the subnet mask in binary, lets convert to decimal format using the formula below;
 
  | Group Size Derivation | $2^7$                                                           | $2^6$ | $2^5$ | $2^4$ | $2^3$ | $2^2$ | $2^1$ | $2^0$ |
 |-----------------------|-----------------------------------------------------------------|-------|-------|-------|-------|-------|-------|-------|
 | Group Size            | 128                                                             | 64    | 32    | 16    | 8     | 4     | 2     | 1     |
 
+Add the above Group size to get the total number of subnet mask in decimal format
+```
+128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 + 0 = 255
+```
+using the group size above, lets calculate the subnet mask derived from the given IP
 
+**First Subnet mask:**
 
+ | Group Size | 128                                                           | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+|-----------------------|-----------------------------------------------------------------|-------|-------|-------|-------|-------|-------|-------|
+| First Subnet Mask            | 1                                                           | 1   | 1  | 1   | 1     | 1    | 1    | 1     |
 
+Total subnet mask=255
 
+**Second subnet Mask:**
 
+ | Group Size | 128                                                           | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+|-----------------------|-----------------------------------------------------------------|-------|-------|-------|-------|-------|-------|-------|
+| Second Subnet Mask            | 1                                                           | 1   | 1  | 1   | 1     | 1    | 1    | 1     |
+
+Total subnet mask=255
+
+**Third subnet mask:**
+
+ | Group Size | 128                                                           | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+|-----------------------|-----------------------------------------------------------------|-------|-------|-------|-------|-------|-------|-------|
+| Third Subnet Mask            | 1                                                           | 1   | 1  | 1   | 1     | 1    | 1    | 1     |
+
+Total subnet mask=255
+
+**Fourth subnet mask**
+
+ | Group Size | 128                                                           | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+|-----------------------|-----------------------------------------------------------------|-------|-------|-------|-------|-------|-------|-------|
+| Fourth Subnet Mask            | 1                                                           | 1   | 1  | 1   | 1     | 0    | 0   | 0    |
+
+Total subnet mask=248
