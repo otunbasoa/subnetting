@@ -89,6 +89,12 @@ Given IP in Binary=11000001.00010000.000101000.00100011
 | Result            | 0                                                           | 0   | 1  | 0   | 0     | 0    | 0   | 0    |
 
 Output of the above operation in decimal=32
+
 Therefore network IP=193.16.20.32
+
+**Lets find the Number of hosts:**
+---
+
+
 
 
