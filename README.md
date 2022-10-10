@@ -72,6 +72,7 @@ Sum of all subnet mask in decimal=255.255.255.248
 Subnet Mask in binary format=11111111.11111111.11111111.11111000
 
 **Lets find the Network ID:**
+---
 
 > Note: we will use `and` operation between the given IP converted to binary and the subnet mask
 
@@ -94,7 +95,9 @@ Therefore network IP=193.16.20.32
 
 **Lets find the Number of hosts:**
 ---
-
-
-
-
+The formula 2N is used to calculate the number of subnets, where N is the number of bits
+Let’s use our formula for calculating the number of networks:
+```
+Number of Networks = 2N
+$2^5$ = 2 x 2 x 2 x 2 x 2=32 networks
+```
