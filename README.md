@@ -91,15 +91,24 @@ Given IP in Binary=11000001.00010000.000101000.00100011
 
 Output of the above operation in decimal=32
 
-Therefore network IP=193.16.20.32
+Therefore network ID=193.16.20.32
 
 **Lets find the Number of hosts:**
 ---
-The formula $2^N$ is used to calculate the number of subnets, where N is the number of bits
-Let’s use our formula for calculating the number of networks:
+we have 3 host bits remaining i.e we are counting our binary subnet mask from the right. Let’s use our formula for calculating usable IP addresses:
 
-Number of Networks = $2^N$
+Usable IP addresses = $2^H$ – 2
 
-$2^5$ = 2 x 2 x 2 x 2 x 2=32 networks
+$2^3$ – 2 = 8 – 2 = 6 usable IPs
+
+This means we have a total of 8 IP addresses, with 6 usable Ip addresses
+
+> Note: In IPv4, there are two IPs that cannot be assigned to any devices. These are the Network ID and the Broadcast IP address. Therefore, you need to subtract two addresses from the total IP formula.
+
+
+
+
+
+
 
 
