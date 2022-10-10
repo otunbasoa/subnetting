@@ -97,8 +97,8 @@ Therefore network IP=193.16.20.32
 ---
 The formula $2^N$ is used to calculate the number of subnets, where N is the number of bits
 Let’s use our formula for calculating the number of networks:
-```
-Number of Networks = 2N
+
+Number of Networks = $2N$
 $2^5$ = 2 x 2 x 2 x 2 x 2=32 networks
 
-```
+
