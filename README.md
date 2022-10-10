@@ -39,6 +39,7 @@ using the group size above, lets calculate the subnet mask derived from the give
 
 Total subnet mask=255
 
+---
 **Second subnet Mask:**
 
  | Group Size | 128                                                           | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
@@ -47,6 +48,7 @@ Total subnet mask=255
 
 Total subnet mask=255
 
+---
 **Third subnet mask:**
 
  | Group Size | 128                                                           | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
@@ -55,6 +57,7 @@ Total subnet mask=255
 
 Total subnet mask=255
 
+---
 **Fourth subnet mask**
 
  | Group Size | 128                                                           | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
@@ -63,6 +66,8 @@ Total subnet mask=255
 
 Total subnet mask=248
 
+---
 Sum of all subnet mask in decimal=255.255.255.248
+
 Subnet Mask in binary format=11111111.11111111.11111111.11111000
 
