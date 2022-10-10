@@ -62,3 +62,7 @@ Total subnet mask=255
 | Fourth Subnet Mask            | 1                                                           | 1   | 1  | 1   | 1     | 0    | 0   | 0    |
 
 Total subnet mask=248
+
+Sum of all subnet mask in decimal=255.255.255.248
+Subnet Mask in binary format=11111111.11111111.11111111.11111000
+
