@@ -79,6 +79,7 @@ Subnet Mask in binary format=11111111.11111111.11111111.11111000
 Since the first three octect of our given IP is constant, we will only calculate with the fourth octect to determine our network ID 
 where;
 Subnet Mask=11111111.11111111.11111111.11111000
+
 Given IP in Binary=11000001.00010000.000101000.00100011
 
 **Fourth octect:**
