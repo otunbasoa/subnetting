@@ -27,7 +27,7 @@ Haven gotten the subnet mask in binary, lets convert to decimal format using the
 
 Add the above Group size to get the total number of subnet mask in decimal format
 ```
-128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 + 0 = 255
+128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 = 255
 ```
 using the group size above, lets calculate the subnet mask derived from the given IP
 
