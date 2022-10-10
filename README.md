@@ -108,8 +108,11 @@ This means we have a total of 8 IP addresses, with 6 usable Ip addresses
 Summarily;
 
 Network IP=193.16.20.32
+
 Number of hosts=6
+
 Range of IP addresses=193.16.20.33 - 193.16.20.38
+
 >Note: To get the range of IP addresses, add the Number of hosts to network IP
 
 Broadcast IP=193.16.20.39
