@@ -105,8 +105,14 @@ This means we have a total of 8 IP addresses, with 6 usable Ip addresses
 
 > Note: In IPv4, there are two IPs that cannot be assigned to any devices. These are the Network ID and the Broadcast IP address. Therefore, you need to subtract two addresses from the total IP formula.
 
+Summarily;
 
+Network IP=193.16.20.32
+Number of hosts=6
+Range of IP addresses=193.16.20.33 - 193.16.20.38
+>Note: To get the range add the Number of hosts to network IP
 
+Broadcast IP=193.16.20.39
 
 
 
