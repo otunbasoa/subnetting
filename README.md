@@ -12,7 +12,7 @@ Steps:
 To solve the above task, we have to get the subnet mask from the given CIDR (/29)
 
 
->NOTE: CIDR/Subnet - CIDR is known as CIDR notation, it simply identifies the size of a subnet. Another way to define the size of a subnet is called subnet mask. you will need to know how to convert between subnet mask and cidr notation or >essentially the number of IP addresses in each subnet
+>NOTE: CIDR/Subnet - CIDR is known as CIDR notation, it simply identifies the size of a subnet. Another way to define the size of a subnet is called subnet mask. you will need to know how to convert between subnet mask and cidr notation or essentially the number of IP addresses in each subnet
 
 From the given IP above, the subnet mask in binary will be:
 Subnet Mask in binary format=11111111.11111111.11111111.11111000
